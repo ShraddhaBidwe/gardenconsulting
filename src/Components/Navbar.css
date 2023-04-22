@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email a{
+    text-decoration: none;
+}
+
+.social-icons ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.social-icons li{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    
+}
+
+.get-a-quote a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.phone-number a{
+     text-decoration: none;
+}
