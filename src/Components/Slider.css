@@ -2,3 +2,9 @@
     margin: 0px;
     padding: 0%;
 }
+
+.Slider{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100px;
+}

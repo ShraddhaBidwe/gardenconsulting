@@ -5,13 +5,15 @@ import { FiFacebook } from 'react-icons/fi';
 import { BsTwitter } from 'react-icons/bs';
 import { AiOutlineGooglePlus } from 'react-icons/ai';
 import { BsTelephone } from 'react-icons/bs';
+import { Button, Image } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react'
 
 const Navbar = () => {
   return (
     <div className='Navbar'>
         <div className='top-navbar'>
             <div className='email'>
-                <span><TfiEmail /></span>
+                <span className='emai-icon'><TfiEmail /></span>
                 <a href='./'>info@greenhaven.com</a>
             </div>
             <div className='right-div'>
@@ -34,9 +36,26 @@ const Navbar = () => {
         <hr></hr>
         <div className='menu-bar'>
             <div className='logo'>
-                <img src='./logo' alt='logo-image'></img>
+            <img src='https://dtgardening.wpengine.com/wp-content/themes/gardening/images/logo.png' />
             </div>
-
+            <div className='menu'>
+                <ul>
+                    <li><a href='./'>Home</a></li>
+                    <li><a href='./'>Contact</a></li>
+                    <li><a href='./'>Shop</a></li>
+                    <li><a href='./'>Login</a></li>
+                </ul>
+            </div>
+            {/* <div>
+            <Button>Click Here</Button>
+            <Button primary>Primary</Button>
+            <Button secondary>Secondary</Button>
+            </div>
+            <div>
+            <Image src='/images/wireframe/image.png' size='small' />
+            <Icon disabled name='users' />
+            <Icon loading name='spinner' />
+            </div> */}
         </div>
       
     </div>
